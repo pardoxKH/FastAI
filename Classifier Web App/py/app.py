@@ -37,7 +37,7 @@ async def answers_to_hw(request):
 
 @app.route("/api/class_list", methods=["GET"])
 async def class_list(request):
-    return JSONResponse([ "Replace this array with a list of your classes extracted from your model" ])
+    return JSONResponse([ 'dali','gogh','monet' ])
 
 @app.route("/api/classify", methods=["POST"])
 async def classify_url(request):
